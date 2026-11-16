@@ -30,11 +30,11 @@ inicio
 
       mediaServidor <- somaTempos / qtdAmostras
 
-      escreval("--------------------------------------------------")
+      escreval("")
       escreval("Servidor: ", idServidor)
       escreval("Quantidade de amostras lidas: ", qtdAmostras)
       escreval("Tempo medio de resposta: ", mediaServidor:0:2, " ms")
-      escreval("--------------------------------------------------")
+      escreval("")
 
       se (mediaServidor > maiorMedia) entao
          maiorMedia <- mediaServidor
@@ -47,9 +47,9 @@ inicio
 
    ate (continuar = "N") ou (continuar = "n")
 
-   escreval("==================================================")
+   escreval("")
    escreval("FECHAMENTO DIARIO - FILA DE MANUTENCAO")
    escreval("Servidor com pior desempenho: ", piorServidor)
    escreval("Maior tempo medio de resposta: ", maiorMedia:0:2, " ms")
-   escreval("==================================================")
+   escreval("")
 fimalgoritmo
