@@ -1,2 +1,2 @@
 # studies
-Repositório pessoal para armazenar exercícios, algoritmos e projetos desenvolvidos durante minha graduação
+Coleção de algoritmos e exercícios desenvolvidos em Portugol com VisuAlg, como parte dos meus estudos em lógica de programação.
